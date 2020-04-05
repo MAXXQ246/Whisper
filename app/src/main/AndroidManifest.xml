@@ -71,6 +71,15 @@
             android:name=".ScheduleChartActivity"
             android:label="日程表" />
         <activity android:name=".ScheduleChartBaseActivity" />
+        <activity android:name=".Edit_personActivity"
+            android:label="个人信息"
+            android:theme="@style/ActivityTheme"/>
+        <activity android:name=".SettingsActivity"
+            android:label="设置"
+            android:theme="@style/ActivityTheme"/>
+        <activity android:name=".ShareActivity"
+            android:label="分享"
+            android:theme="@style/ActivityTheme"/>
     </application>
 
 </manifest>
